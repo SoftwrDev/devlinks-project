@@ -2,7 +2,7 @@
 
 :root {
   --text-color: #fff;
-  --bg-url: url(./assets/bg-dark.png);
+  --bg-url: url(./assets/bg-mobile-dark.png);
   --link-bg-button-color: rgba(255, 255, 255, 0.1);
   --link-bg-button-color-hover: rgba(255, 255, 255, 0.05);
   --link-border-color: rgba(255, 255, 255, 0.5);
@@ -13,7 +13,7 @@
 
 .theme-light {
   --text-color: #000;
-  --bg-url: url(./assets/bg-light.png);
+  --bg-url: url(./assets/bg-mobile-light.png);
   --link-bg-button-color: rgba(0, 0, 0, 0.05);
   --link-bg-button-color-hover: rgba(0, 0, 0, 0.02);
   --link-border-color: rgba(0, 0, 0, 0.5);
@@ -31,6 +31,7 @@
 body {
   /* background: color image repeat position/size */
   background: var(--bg-url) no-repeat top center/cover;
+  height: calc(100vh - 56px);
 }
 
 body * {
@@ -155,4 +156,14 @@ footer {
   text-align: center;
   font-size: 14px;
   font-weight: 400;
+}
+
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop-dark.png);
+  }
+
+  .theme-light {
+    --bg-url: url(./assets/bg-desktop-light.png);
+  }
 }
