@@ -1,0 +1,4 @@
+body {
+  /* background: color image repeat position/size */
+  background: url(./assets/bg-mobile-dark.png) no-repeat top center/cover;
+}
