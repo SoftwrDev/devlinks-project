@@ -95,6 +95,7 @@ body * {
 }
 
 #switch button:hover {
+  outline: 8px solid var(--highlight-icon-color);
   cursor: pointer;
 }
 
