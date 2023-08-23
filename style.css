@@ -2,20 +2,22 @@
 
 :root {
   --text-color: #fff;
-  --bg-url: url(./assets/bg-mobile-dark.png);
+  --bg-url: url(./assets/bg-dark.png);
   --link-bg-button-color: rgba(255, 255, 255, 0.1);
   --link-bg-button-color-hover: rgba(255, 255, 255, 0.05);
   --link-border-color: rgba(255, 255, 255, 0.5);
+  --link-border-avatar-color: rgba(255, 255, 255, 0.2);
   --highlight-icon-color: rgba(255, 255, 255, 0.2);
   --theme-mode-icon: url(assets/moon-stars.svg);
 }
 
 .theme-light {
   --text-color: #000;
-  --bg-url: url(./assets/bg-mobile-light.png);
+  --bg-url: url(./assets/bg-light.png);
   --link-bg-button-color: rgba(0, 0, 0, 0.05);
   --link-bg-button-color-hover: rgba(0, 0, 0, 0.02);
   --link-border-color: rgba(0, 0, 0, 0.5);
+  --link-border-avatar-color: rgba(0, 0, 0, 0.2);
   --highlight-icon-color: rgba(0, 0, 0, 0.1);
   --theme-mode-icon: url(assets/sun.svg);
 }
@@ -48,6 +50,8 @@ body * {
 
 #profile img {
   width: 112px;
+  border-radius: 50px;
+  border: 2px solid var(--link-border-avatar-color);
 }
 
 #profile p {

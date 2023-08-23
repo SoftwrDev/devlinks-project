@@ -1,9 +1,10 @@
 document.querySelector("#switch button").addEventListener("click", () => {
-  const htmlDoc = document.querySelector("html")
+  const docEl = document.querySelector("html")
 
-  if (htmlDoc.classList.contains("theme-light")) {
-    htmlDoc.classList.remove("theme-light")
+  if (docEl.classList.contains("theme-light")) {
+    docEl.classList.remove("theme-light")
     return
   }
-  htmlDoc.classList.add("theme-light")
+
+  docEl.classList.add("theme-light")
 })
