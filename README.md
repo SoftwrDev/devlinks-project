@@ -7,7 +7,7 @@
 </div>
 
 <p style="text-align: center">
-<a href="https://softwrdev.github.io/devlinks-project/">Live Demo</a>
+<a href="https://softwrdev.github.io/devlinks-project/" target="_blank">Live Demo</a>
 </p>
 
 <p style="text-align: center">
