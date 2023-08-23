@@ -7,6 +7,10 @@
 </div>
 
 <p style="text-align: center">
+<a href="https://softwrdev.github.io/devlinks-project/">Live Demo</a>
+</p>
+
+<p style="text-align: center">
 This project is meant to practice skills using <strong>HTML</strong>, <strong>CSS</strong>, <strong>Javascript</strong>. It was meant to be a project where I transform a <strong>Figma</strong> project into code.
 </p>
 
