@@ -91,6 +91,7 @@ body * {
   transform: translateY(-50%);
   left: 0px;
   z-index: 1;
+  animation: slide-back 0.2s;
 }
 
 #switch button:hover {
@@ -98,8 +99,7 @@ body * {
 }
 
 .theme-light #switch button {
-  right: 0px;
-  left: initial;
+  animation: slide-in 0.4s forwards;
 }
 
 .links {
@@ -165,5 +165,23 @@ footer {
 
   .theme-light {
     --bg-url: url(./assets/bg-desktop-light.png);
+  }
+}
+
+@keyframes slide-in {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes slide-back {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
   }
 }
